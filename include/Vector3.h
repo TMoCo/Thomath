@@ -12,7 +12,13 @@
 #define VECTOR3_H 1
 
 #include <iostream>
-#include <xmmintrin.h>
+#include <cmath>
+
+#ifdef __x86_64__
+  #include <immintrin.h>
+#else
+  #include <sse2neon.h>
+#endif
 
 constexpr size_t SIZE_OF_VEC3 = 0xc;
 

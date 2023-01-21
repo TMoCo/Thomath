@@ -13,6 +13,7 @@
 
 #include "Vector4.h"
 #include "Quaternion.h"
+#include <cmath>
 
 constexpr size_t SIZE_OF_MAT4 = 0x40;
 

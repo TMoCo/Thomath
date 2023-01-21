@@ -9,7 +9,6 @@
 //
 
 #include "Vector2.h"
-#include <cstring>
 
 Vector2& Vector2::operator =(const Vector2& other) 
 {

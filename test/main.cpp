@@ -5,9 +5,11 @@
 */
 
 #include "unit_tests.h"
+#include <thomath.h>
+#include <iostream>
 
 int main(int argc, char** argv)
 {
-  assert(argc == 2);
-  return run_test(atoi(argv[1]));
+    const Vector3 a(0, 1, 2);
+    std::cout << "Hello World!! " << a << std::endl;
 }

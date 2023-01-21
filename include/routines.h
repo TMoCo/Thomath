@@ -12,8 +12,8 @@
 #define ROUTINES_H 1
 
 #include "constants.h"
-#include <intrin.h>
 #include <assert.h>
+#include <cmath>
 
 
 constexpr inline float radians(float x)
@@ -51,9 +51,9 @@ constexpr inline bool quadratic(float a, float b, float c, float* t0, float* t1)
   return true;
 }
 
-constexpr inline float inverseSquareRoot(float x)
+inline float inverseSquareRoot(float x)
 {
-  uint32_t *i = (uint32_t*)&x;
+  uint32_t *i = reinterpret_cast<uint32_t*>(&x);
   *i = 0x5F375A86 - (*i >> 1);
   return x * (1.5f - 0.5f * x * x * x);
 }

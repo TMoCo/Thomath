@@ -10,7 +10,6 @@
 
 #include "Vector3.h"
 #include "constants.h"
-#include <math.h>
 
 Vector3& Vector3::operator =(const Vector3& other) 
 {

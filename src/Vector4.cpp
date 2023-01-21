@@ -9,7 +9,6 @@
 //
 
 #include "Vector4.h"
-#include <intrin.h>
 
 Vector4& Vector4::operator =(const Vector4& other) 
 {

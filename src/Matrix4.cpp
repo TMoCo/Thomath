@@ -9,7 +9,6 @@
 //
 
 #include "Matrix4.h"
-#include <intrin.h>
 
 Matrix4::Matrix4() 
   : _m{} 
@@ -322,7 +321,7 @@ Matrix4 Matrix4::scale(const Vector3& scale)
 
 Matrix4 Matrix4::perspective(float fov, float aspectRatio, float near, float far) 
 {
-  float tanHalfFov = tan(fov * 0.5f);
+  float tanHalfFov = std::tan(fov * 0.5f);
   Matrix4 mat{};
   mat[0][0] = 1.0f / (aspectRatio * tanHalfFov);
   mat[1][1] = 1.0f / tanHalfFov;

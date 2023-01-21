@@ -12,6 +12,7 @@
 #define CONSTANTS_H 1
 
 #include <cstdint>
+#include <cfloat>
 #include "Vector3.h"
 
 typedef enum : uint32_t

@@ -10,6 +10,9 @@
 #define VECTOR2_H 1
 
 #include <cstdint>
+#include <cstdio>
+#include <cstring>
+
 constexpr size_t SIZE_OF_VEC2 = 0x8;
 
 typedef class Vector2 {
