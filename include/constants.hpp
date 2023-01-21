@@ -13,7 +13,7 @@
 
 #include <cstdint>
 #include <cfloat>
-#include "Vector3.h"
+#include "Vector3.hpp"
 
 typedef enum : uint32_t
 {

@@ -11,12 +11,12 @@
 #ifndef THOMATH_H
 #define THOMATH_H 1
 
-#include "constants.h"
-#include "Matrix4.h"
-#include "Quaternion.h"
-#include "routines.h"
-#include "Vector2.h"
-#include "Vector3.h"
-#include "Vector4.h"
+#include "constants.hpp"
+#include "Matrix4.hpp"
+#include "Quaternion.hpp"
+#include "routines.hpp"
+#include "Vector2.hpp"
+#include "Vector3.hpp"
+#include "Vector4.hpp"
 
 #endif // !THOMATH_H

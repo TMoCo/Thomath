@@ -8,7 +8,7 @@
 // Vector4 class definition
 //
 
-#include "Vector4.h"
+#include "Vector4.hpp"
 
 Vector4& Vector4::operator =(const Vector4& other) 
 {

@@ -4,8 +4,8 @@
 * Copyright 2022 under the MIT License
 */
 
-#include "unit_tests.h"
-#include <thomath.h>
+#include "unit_tests.hpp"
+#include <thomath.hpp>
 #include <iostream>
 
 int main(int argc, char** argv)

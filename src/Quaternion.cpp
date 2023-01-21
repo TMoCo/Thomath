@@ -8,8 +8,8 @@
 // Quaternion class definition
 //
 
-#include "Quaternion.h"
-#include "routines.h"
+#include "Quaternion.hpp"
+#include "routines.hpp"
 
 Quaternion& Quaternion::operator = (const Quaternion &other) 
 {

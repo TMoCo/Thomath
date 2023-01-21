@@ -8,7 +8,7 @@
 // Matrix4 class definition
 //
 
-#include "Matrix4.h"
+#include "Matrix4.hpp"
 
 Matrix4::Matrix4() 
   : _m{} 

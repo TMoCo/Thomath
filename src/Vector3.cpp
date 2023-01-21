@@ -8,8 +8,8 @@
 // Vector3 class definition
 //
 
-#include "Vector3.h"
-#include "constants.h"
+#include "Vector3.hpp"
+#include "constants.hpp"
 
 Vector3& Vector3::operator =(const Vector3& other) 
 {

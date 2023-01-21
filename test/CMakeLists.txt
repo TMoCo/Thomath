@@ -15,7 +15,7 @@ add_executable(${PROJECT_NAME})
 target_sources(${PROJECT_NAME}
     PRIVATE
         main.cpp
-        unit_tests.h
+        unit_tests.hpp
 )
 
 # linking to the library, here you need to provide the namespace too

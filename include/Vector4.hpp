@@ -11,7 +11,7 @@
 #ifndef VECTOR4_H
 #define VECTOR4_H 1
 
-#include "Vector3.h"
+#include "Vector3.hpp"
 #include <cmath>
 
 #ifdef __x86_64__

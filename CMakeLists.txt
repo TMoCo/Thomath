@@ -30,15 +30,15 @@ target_sources(${PROJECT_NAME}
     src/Vector2.cpp
     src/Vector3.cpp
     src/Vector4.cpp
-    include/Matrix4.h
-    include/Quaternion.h
-    include/Vector2.h
-    include/Vector3.h
-    include/Vector4.h
-    include/constants.h
-    include/routines.h
+    include/Matrix4.hpp
+    include/Quaternion.hpp
+    include/Vector2.hpp
+    include/Vector3.hpp
+    include/Vector4.hpp
+    include/constants.hpp
+    include/routines.hpp
     include/sse2neon.h
-    include/thomath.h
+    include/thomath.hpp
 )
 
 target_include_directories(${PROJECT_NAME}
@@ -73,15 +73,15 @@ endif()
 
 # Public headers property
 set(public_headers
-include/Matrix4.h
-include/Quaternion.h
-include/Vector2.h
-include/Vector3.h
-include/Vector4.h
-include/constants.h
-include/routines.h
+include/Matrix4.hpp
+include/Quaternion.hpp
+include/Vector2.hpp
+include/Vector3.hpp
+include/Vector4.hpp
+include/constants.hpp
+include/routines.hpp
 include/sse2neon.h
-include/thomath.h
+include/thomath.hpp
 )
 
 set_target_properties(${PROJECT_NAME} PROPERTIES PUBLIC_HEADER "${public_headers}")

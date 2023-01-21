@@ -11,8 +11,8 @@
 #ifndef MATRIX4_H
 #define MATRIX4_H 1
 
-#include "Vector4.h"
-#include "Quaternion.h"
+#include "Vector4.hpp"
+#include "Quaternion.hpp"
 #include <cmath>
 
 constexpr size_t SIZE_OF_MAT4 = 0x40;

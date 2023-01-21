@@ -11,8 +11,8 @@
 #ifndef QUATERNION_H
 #define QUATERNION_H 1
 
-#include "Vector3.h"
-#include "Vector4.h"
+#include "Vector3.hpp"
+#include "Vector4.hpp"
 
 typedef struct Quaternion {
 public:
